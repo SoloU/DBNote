@@ -1,0 +1,14 @@
+安装
+查看是否安装mariadb
+rpm -qa |grep mariadb
+yum install mariadb*
+yum install mariadb-server
+
+DB启动方式
+systemctl status mariadb.service
+systemctl start mariadb.service
+systemctl stop mariadb.service
+systemctl restart mariadb.service
+
+systemctl |grep  mariadb
+
